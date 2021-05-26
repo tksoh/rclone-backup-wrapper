@@ -1,0 +1,14 @@
+#
+# This is a template of config file to be read by the wrapper scripts
+#
+# To use, create rclone-backup.conf fill in the parameters
+#
+
+remote=			# rclone remote created with 'rclone config'
+mountpoint=		# path to local directory for mounting the remote
+backupdir=		# directory at remote used as root direcoty for backup 
+
+# list of local directories to backup (relative to $HOME)
+dirlist=(
+
+)
