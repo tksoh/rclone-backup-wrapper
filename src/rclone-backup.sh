@@ -25,7 +25,7 @@ fi
 # start backup
 echo "=== BACKUP PROGRESS ==="
 
-backuplog=/tmp/rclone-backup.log
+backuplog=/tmp/rclone_backup_log.txt
 echo -n "backup begin:    " > $backuplog
 date +"%F %T">> $backuplog
 for dir in "${dirlist[@]}"
